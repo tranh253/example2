@@ -18,6 +18,7 @@
         <li><a href="add_customers.php">Add Customers</a></li>
         <li><a href="cats.php">Cats</a></li>
         <li><a href="edit_customer.php">Edit Customer</a></li>
+        <li><a href="delete_several_customer.php">Delete Customer</a></li>
       </ul>
     </div>
     <div id="content">
