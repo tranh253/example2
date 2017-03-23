@@ -1,16 +1,6 @@
 <?php
 include "connection.php";
 
-if (isset($_POST['btnAdd'])){
-  $add=$db->prepare("INSERT INTO customers (firstname,lastname,streetaddress) VALUES(:fn,:ln,:ad)");
-  $add->bindParam(':fn',$fn);
-  $add->bindParam(':ln',$ln);
-  $add->bindParam(':ad',$ad);
-  $fn=$_POST['fn'];
-  $ln=$_POST['ln'];
-  $ad=$_POST['ad'];
-  $add->execute();
-}
 if (isset($_POST['btnEdit'])){
   $add=$db->prepare("UPDATE customers SET firstname=:fn,lastname=:ln,streetaddress=:ad WHERE id_customers=:id");
   $add->bindParam(':fn',$fn);
