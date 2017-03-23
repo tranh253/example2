@@ -1,8 +1,8 @@
 <?php
 	try
 	{
-	 $dsn = "mysql:host=localhost;dbname=company";
-	 $db = new PDO ($dsn, "webuser", "webpass");
+	 $dsn = "mysql:host=mysli.oamk.fi;dbname=opisk_t6ngtr00";
+	 $db = new PDO ($dsn, "t6ngtr00", "facedrop");
 	 //print ("Connected\n");
 	}
 	catch (PDOException $e)
