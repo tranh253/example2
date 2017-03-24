@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>PHP example2</title>
     <link rel="stylesheet" href="mystyle.css">
+    <script type="text/javascript" src="myFunctions.js"></script>
   </head>
   <body>
     <div id="menu">
